@@ -2,3 +2,65 @@ body{
     background-image: url(../images/background.jpg);
     margin: auto;
 }
+.container{
+    margin: auto;
+    width: 300px;
+    margin-top: 150px;
+    height: auto;
+    background: white;
+    border-radius: 2px;
+}
+.top-header{
+    padding: 30px 10px 10px 10px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bolder ;
+    font-weight: 700;
+    color: grey;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.method-name{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: lightgrey;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.option{
+    padding: 0px 20px 0;
+    display: flex;
+    align-content: center;
+
+    height: 50px;
+    border-top: 1px solid rgba(204, 201, 201, 0.76);
+}
+.icon{
+    width: 32px;
+    height: 32px;
+}
+.next-step{
+    text-align: center;
+    align-content: center;
+    background: rgba(63, 63, 255, 0.781);
+    height: 20px;
+    padding: 10px 0;
+    font-style: unset;
+}
+.next-step a{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.next-step .arrow{
+    align-content: center;
+    width: 10px;
+    height: 10px;
+}
