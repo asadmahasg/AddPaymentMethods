@@ -32,9 +32,10 @@ body{
 .option{
     padding: 0px 20px 0;
     display: flex;
-    align-content: center;
-
+    flex-wrap: wrap;
+    position: relative;
     height: 50px;
+    align-content: center;
     border-top: 1px solid rgba(204, 201, 201, 0.76);
 }
 .icon{
@@ -64,3 +65,11 @@ body{
     width: 10px;
     height: 10px;
 }
+.check{
+    position: absolute;
+    right: 0%;
+    margin-right: 20px;
+    visibility: hidden;
+}
+
+
