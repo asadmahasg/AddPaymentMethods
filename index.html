@@ -10,25 +10,25 @@
         <div class="container">
                 <h1 class="top-header">Payment Method</h1>
                 <div class="options">
-                    <div class="option option-1" id="opt-1">
+                    <div class="option option-1" id="opt-1" onclick="visaClicked()">
                         <img src="images/visa.svg" alt="" class="icon visa">
-                        <h2 class="method-name">Visa</h2>
+                        <h2 class="method-name" id="visaHeading">Visa</h2>
                         <div class="tick">
-                            <img src="images/check.svg" alt="" class="check">
+                            <img src="images/check.svg" alt="" class="check" id="check-1">
                         </div>
                     </div>
-                    <div class="option option-2" id="opt-2">
+                    <div class="option option-2" id="opt-2" onclick="masterClicked()">
                         <img src="images/mastercard.svg" alt="" class="icon visa">
-                        <h2 class="method-name">Mastercard</h2>
+                        <h2 class="method-name" id="masterHeading">Mastercard</h2>
                         <div class="tick">
-                            <img src="images/check.svg" alt="" class="check">
+                            <img src="images/check.svg" alt="" class="check" id="check-2">
                         </div>
                     </div>
-                    <div class="option option-3" id="opt-3" onclick="document.getElementById('head-3').style.color='#000', document.getElementById('tick-3').style.visibility='visible'">
+                    <div class="option option-3" id="opt-3" onclick="maestroClicked()">
                         <img src="images/maestro.svg" alt="" class="icon visa">
-                        <h2 class="method-name" id="head-3">Maestro</h2>
+                        <h2 class="method-name" id="maestroHeading">Maestro</h2>
                         <div class="tick">
-                            <img src="images/check.svg" alt="" class="check" id="tick-3">
+                            <img src="images/check.svg" alt="" class="check" id="check-3">
                         </div>
                     </div>
                 </div>
@@ -39,5 +39,6 @@
 
             </div>
         </div>
+        <script src="JavaScript/script.js"></script>
     </body>
 </html>
